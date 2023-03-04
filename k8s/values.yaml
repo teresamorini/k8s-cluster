@@ -4,7 +4,7 @@ appserver:
 
   image:
     name: appserver
-    tag: latest
+    tag: v1
     port: 3000
   
   service:
@@ -31,7 +31,7 @@ nginx:
 
   image:
     name: app-nginx
-    tag: latest
+    tag: v1
     port: 80
 
   service:
